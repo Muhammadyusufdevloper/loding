@@ -1,0 +1,94 @@
+#loading{
+  padding: 120px 0;
+}
+.loading__wrapper {
+  display: flex;
+  justify-content: center;
+}
+.liner-card {
+  height: 0px;
+  width: 0px;
+  background-color:  rgb(13, 44, 30);
+  animation-name: load;
+  animation-timing-function: ease-in-out;
+  animation-duration: 0.3s;
+  animation-iteration-count: infinite;
+}
+.loading-wrapper__box{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.liner1 {
+  margin-left: 0;
+}
+
+@keyframes load {
+  0% {
+    width: 5px;
+    height: 60px;
+    background-color: rgb(13, 44, 30);
+  }
+  50% {
+    height: 120px;
+    background-color: rgb(53, 133, 160);
+  }
+  100% {
+    width: 5px;
+    height: 60px;
+    background-color:  rgb(13, 44, 30);
+  }
+}
+
+.liner1 {
+  animation-delay: 0s;
+}
+
+.liner2 {
+  animation-delay: 0.05s;
+}
+.liner3 {
+  animation-delay: 0.1s;
+}
+.liner4 {
+  animation-delay: 0.15s;
+}
+.liner5 {
+  animation-delay: 0.2s;
+}
+.liner6 {
+  animation-delay: 0.25s;
+}
+.liner7 {
+  animation-delay: 0.3s;
+}
+.liner8 {
+  animation-delay: 0.35s;
+}
+.liner9 {
+  animation-delay: 0.4s;
+}
+.liner10 {
+  animation-delay: 0.45s;
+}
+.liner11 {
+  animation-delay: 0.5s;
+}
+.liner12 {
+  animation-delay: 0.55s;
+}
+.liner13 {
+  animation-delay: 0.6s;
+}
+.liner14 {
+  animation-delay: 0.65s;
+}
+.liner15 {
+  animation-delay: 0.7s;
+}
+.liner16 {
+  animation-delay: 0.75s;
+}
+.liner17 {
+  animation-delay: 0.8s;
+}
